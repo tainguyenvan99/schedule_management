@@ -1,0 +1,138 @@
+[
+    {
+        "dayOfWeek": "Monday",
+        "room": "A101",
+        "subject": "Mathematics",
+        "teacher": "Mr. Smith",
+        "timeFrom": "08:00",
+        "timeTo": "09:00"
+    },
+    {
+        "dayOfWeek": "Monday",
+        "room": "B102",
+        "subject": "English",
+        "teacher": "Ms. Johnson",
+        "timeFrom": "09:15",
+        "timeTo": "10:15"
+    },
+    {
+        "dayOfWeek": "Tuesday",
+        "room": "C303",
+        "subject": "Physics",
+        "teacher": "Dr. White",
+        "timeFrom": "10:30",
+        "timeTo": "11:30"
+    },
+    {
+        "dayOfWeek": "Tuesday",
+        "room": "D404",
+        "subject": "Chemistry",
+        "teacher": "Dr. Green",
+        "timeFrom": "13:00",
+        "timeTo": "14:00"
+    },
+    {
+        "dayOfWeek": "Wednesday",
+        "room": "E505",
+        "subject": "Biology",
+        "teacher": "Ms. Stone",
+        "timeFrom": "14:15",
+        "timeTo": "15:15"
+    },
+    {
+        "dayOfWeek": "Thursday",
+        "room": "F606",
+        "subject": "History",
+        "teacher": "Mr. Black",
+        "timeFrom": "08:00",
+        "timeTo": "09:00"
+    },
+    {
+        "dayOfWeek": "Thursday",
+        "room": "B202",
+        "subject": "Geography",
+        "teacher": "Ms. Watson",
+        "timeFrom": "09:15",
+        "timeTo": "10:15"
+    },
+    {
+        "dayOfWeek": "Friday",
+        "room": "Lab1",
+        "subject": "Computer Science",
+        "teacher": "Mr. Reed",
+        "timeFrom": "10:30",
+        "timeTo": "11:30"
+    },
+    {
+        "dayOfWeek": "Friday",
+        "room": "Art Room",
+        "subject": "Art",
+        "teacher": "Ms. Carter",
+        "timeFrom": "13:00",
+        "timeTo": "14:00"
+    },
+    {
+        "dayOfWeek": "Friday",
+        "room": "Gym",
+        "subject": "Physical Education",
+        "teacher": "Coach Lee",
+        "timeFrom": "14:15",
+        "timeTo": "15:15"
+    },
+    {
+        "dayOfWeek": "Saturday",
+        "room": "Library",
+        "subject": "Study Period",
+        "teacher": "Ms. Brown",
+        "timeFrom": "08:00",
+        "timeTo": "09:00"
+    },
+    {
+        "dayOfWeek": "Saturday",
+        "room": "Cafeteria",
+        "subject": "Lunch Break",
+        "teacher": "",
+        "timeFrom": "12:00",
+        "timeTo": "13:00"
+    },
+    {
+        "dayOfWeek": "123",
+        "room": "123123",
+        "subject": "123",
+        "teacher": "123",
+        "timeFrom": "312",
+        "timeTo": "123123123"
+    },
+    {
+        "dayOfWeek": "Saturday",
+        "room": "123123",
+        "subject": "123",
+        "teacher": "123",
+        "timeFrom": "312",
+        "timeTo": "123123123"
+    },
+    {
+        "dayOfWeek": "Sunday",
+        "room": "1",
+        "subject": "1",
+        "teacher": "1",
+        "timeFrom": "1",
+        "timeTo": "1"
+    },
+    {
+        "dayOfWeek": "Monday",
+        "room": "1",
+        "subject": "1",
+        "teacher": "1",
+        "timeFrom": "1",
+        "timeTo": "1"
+    },
+    {
+        "dayOfWeek": "monday",
+        "room": "213123",
+        "subject": "1",
+        "teacher": "1231",
+        "timeFrom": "123",
+        "timeTo": "123"
+    }
+]

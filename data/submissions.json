@@ -1,0 +1,28 @@
+[
+    {
+      "subject": "Biology",
+      "desc": "Submit lab report on photosynthesis",
+      "deadline": "2025-05-10T23:59"
+    },
+    {
+      "subject": "History",
+      "desc": "Essay on World War II",
+      "deadline": "2025-05-12T17:00"
+    },
+    {
+      "subject": "English",
+      "desc": "Book review: 'To Kill a Mockingbird'",
+      "deadline": "2025-05-14T18:00"
+    },
+    {
+      "subject": "Computer Science",
+      "desc": "Python programming assignment",
+      "deadline": "2025-05-16T20:00"
+    },
+    {
+      "subject": "Mathematics",
+      "desc": "Submit problem set 5",
+      "deadline": "2025-05-18T23:59"
+    }
+  ]
+  

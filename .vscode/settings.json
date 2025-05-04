@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "qapplication": "cpp",
+        "qstring": "cpp",
+        "qdate": "cpp",
+        "qdebug": "cpp",
+        "new": "cpp",
+        "qlabel": "cpp"
+    }
+}

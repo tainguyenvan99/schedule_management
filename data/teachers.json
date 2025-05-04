@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Mr. Smith",
+      "post": "Mathematics Teacher",
+      "phone": "+1234567890",
+      "email": "smith.math@example.com"
+    },
+    {
+      "name": "Mrs. Johnson",
+      "post": "Physics Teacher",
+      "phone": "+1234567891",
+      "email": "johnson.physics@example.com"
+    },
+    {
+      "name": "Mr. Davis",
+      "post": "Chemistry Teacher",
+      "phone": "+1234567892",
+      "email": "davis.chem@example.com"
+    },
+    {
+      "name": "Ms. Brown",
+      "post": "History Teacher",
+      "phone": "+1234567893",
+      "email": "brown.history@example.com"
+    },
+    {
+      "name": "Mrs. Wilson",
+      "post": "English Teacher",
+      "phone": "+1234567894",
+      "email": "wilson.english@example.com"
+    }
+  ]
+  

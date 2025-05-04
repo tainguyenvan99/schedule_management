@@ -1,0 +1,38 @@
+[
+    {
+      "subject": "Mathematics",
+      "room": "Exam Hall A",
+      "date": "2025-06-01",
+      "timeFrom": "08:00",
+      "timeTo": "10:00"
+    },
+    {
+      "subject": "Physics",
+      "room": "Exam Hall B",
+      "date": "2025-06-02",
+      "timeFrom": "10:30",
+      "timeTo": "12:30"
+    },
+    {
+      "subject": "Chemistry",
+      "room": "Lab 1",
+      "date": "2025-06-03",
+      "timeFrom": "09:00",
+      "timeTo": "11:00"
+    },
+    {
+      "subject": "History",
+      "room": "Exam Hall C",
+      "date": "2025-06-04",
+      "timeFrom": "13:00",
+      "timeTo": "15:00"
+    },
+    {
+      "subject": "English",
+      "room": "Room 110",
+      "date": "2025-06-05",
+      "timeFrom": "08:00",
+      "timeTo": "10:00"
+    }
+  ]
+  

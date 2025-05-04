@@ -1,0 +1,134 @@
+[
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\schedule_management_autogen\\mocs_compilation.cpp.obj -c D:\\qt_fw\\schedule_management\\build\\schedule_management_autogen\\mocs_compilation.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\build\\schedule_management_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\schedule_management_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\main.cpp.obj -c D:\\qt_fw\\schedule_management\\main.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\main.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\main.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\MainWindow.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\MainWindow.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\MainWindow.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\MainWindow.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\header_bar\\HeaderBar.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\header_bar\\HeaderBar.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\header_bar\\HeaderBar.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\header_bar\\HeaderBar.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\side_bar_menu\\SideBar.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\side_bar_menu\\SideBar.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\side_bar_menu\\SideBar.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\side_bar_menu\\SideBar.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\icon_label\\IconLabel.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\icon_label\\IconLabel.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\icon_label\\IconLabel.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\icon_label\\IconLabel.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\info_card\\InfoCard.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\info_card\\InfoCard.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\info_card\\InfoCard.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\info_card\\InfoCard.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\info_card\\InfoCardList.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\info_card\\InfoCardList.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\info_card\\InfoCardList.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\info_card\\InfoCardList.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\button_action\\ButtonAction.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\button_action\\ButtonAction.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\button_action\\ButtonAction.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\button_action\\ButtonAction.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\component\\form_dialog\\FormDialog.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\component\\form_dialog\\FormDialog.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\component\\form_dialog\\FormDialog.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\component\\form_dialog\\FormDialog.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\page\\time_table\\TimeTablePage.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\page\\time_table\\TimeTablePage.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\page\\time_table\\TimeTablePage.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\page\\time_table\\TimeTablePage.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\page\\exams\\ExamPage.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\page\\exams\\ExamPage.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\page\\exams\\ExamPage.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\page\\exams\\ExamPage.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\page\\submissions\\SubmissionPage.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\page\\submissions\\SubmissionPage.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\page\\submissions\\SubmissionPage.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\page\\submissions\\SubmissionPage.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\view\\page\\teachers\\TeacherPage.cpp.obj -c D:\\qt_fw\\schedule_management\\view\\page\\teachers\\TeacherPage.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\view\\page\\teachers\\TeacherPage.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\view\\page\\teachers\\TeacherPage.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\exam\\Exam.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\exam\\Exam.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\exam\\Exam.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\exam\\Exam.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\exam\\ExamManager.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\exam\\ExamManager.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\exam\\ExamManager.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\exam\\ExamManager.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\time_table\\TimeTable.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\time_table\\TimeTable.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\time_table\\TimeTable.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\time_table\\TimeTable.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\time_table\\TimeTableManager.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\time_table\\TimeTableManager.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\time_table\\TimeTableManager.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\time_table\\TimeTableManager.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\submission\\Submission.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\submission\\Submission.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\submission\\Submission.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\submission\\Submission.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\submission\\SubmissionManager.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\submission\\SubmissionManager.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\submission\\SubmissionManager.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\submission\\SubmissionManager.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\teacher\\Teacher.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\teacher\\Teacher.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\teacher\\Teacher.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\teacher\\Teacher.cpp.obj"
+},
+{
+  "directory": "D:/qt_fw/schedule_management/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/qt_fw/schedule_management/build/schedule_management_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\schedule_management.dir\\model\\teacher\\TeacherManager.cpp.obj -c D:\\qt_fw\\schedule_management\\model\\teacher\\TeacherManager.cpp",
+  "file": "D:\\qt_fw\\schedule_management\\model\\teacher\\TeacherManager.cpp",
+  "output": "CMakeFiles\\schedule_management.dir\\model\\teacher\\TeacherManager.cpp.obj"
+}
+]
