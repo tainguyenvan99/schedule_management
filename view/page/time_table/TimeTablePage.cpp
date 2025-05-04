@@ -2,6 +2,7 @@
 #include <QListWidgetItem>
 #include <QPushButton>
 #include <QScrollArea>
+#include "RandomColor.h"
 
 TimeTablePage::TimeTablePage(QWidget *parent)
     : QWidget(parent)
@@ -70,7 +71,7 @@ void TimeTablePage::initializeItem(const QString &dayOfWeek)
     infoCardList->clearCards();   
     QList<TimeTable> list = timeTableManager->filterByDayOfWeek(dayOfWeek);
     for (const TimeTable& t : list) {
-        infoCard = infoCardList->addCard(t.subject(), "#3E61DE7D");
+        infoCard = infoCardList->addCard(t.subject(), getRandomColorString());
         infoCard->addContentLine({{"../../assets/calendar.png", t.teacher()}});
         infoCard->addContentLine({{"../../assets/calendar.png", t.room()}, {"../../assets/calendar.png", t.timeFrom() + " - " + t.timeTo()}});
     }
@@ -124,41 +125,3 @@ void TimeTablePage::openFormDialog()
         initializeItem(newTimeTable.dayOfWeek());
     }
 }
-
-// void TimeTablePage::loadDataWhenFormAccepted(const QVector<QPair<QString, QString>> &entries)
-// {
-    // TimeTable newTimeTable;
-    // if (formDialog->exec() == QDialog::Accepted)
-    // {
-    //     QVector<QPair<QString, QString>> entries = formDialog->getLabelInputPairs();
-    //     for (const auto &entry : entries)
-    //     {
-    //         if (entry.first == "Subject: ")
-    //         {
-    //             newTimeTable.setSubject(entry.second);
-    //         }
-    //         else if (entry.first == "Teacher: ")
-    //         {
-    //             newTimeTable.setTeacher(entry.second);
-    //         }
-    //         else if (entry.first == "Room: ")
-    //         {
-    //             newTimeTable.setRoom(entry.second);
-    //         }
-    //         else if (entry.first == "From Time: ")
-    //         {
-    //             newTimeTable.setTimeFrom(entry.second);
-    //         }
-    //         else if (entry.first == "To Time: ")
-    //         {
-    //             newTimeTable.setTimeTo(entry.second);
-    //         }
-    //         else if (entry.first == "Day of Week: ")
-    //         {
-    //             newTimeTable.setDayOfWeek(entry.second);
-    //         }
-    //     }
-    //     timeTableManager->saveToJson("../../data/time_table.json", newTimeTable);
-    //     timeTableManager->loadFromJson("../../data/time_table.json");
-    //     initializeItem(newTimeTable.dayOfWeek());
-// }

@@ -5,11 +5,11 @@
 #include <QVBoxLayout>
 #include <QLabel>
 
-#include "../../component/info_card/InfoCardList.h"
-#include "../../component/info_card/InfoCard.h"
-#include "../../component/button_action/ButtonAction.h"
-#include "../../component/form_dialog/FormDialog.h"
-#include "../../../model/time_table/TimeTableManager.h"
+#include "InfoCardList.h"
+#include "InfoCard.h"
+#include "ButtonAction.h"
+#include "FormDialog.h"
+#include "TimeTableManager.h"
 
 
 class TimeTablePage : public QWidget

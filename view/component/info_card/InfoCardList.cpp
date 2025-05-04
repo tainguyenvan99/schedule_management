@@ -15,7 +15,8 @@ InfoCardList::InfoCardList(QWidget *parent)
     scrollArea->setWidget(containerWidget);
     scrollArea->setWidgetResizable(true);
     scrollArea->setFrameShape(QFrame::NoFrame);
-    scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+    scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     mainLayout->addWidget(scrollArea); 
     setLayout(mainLayout);
 }

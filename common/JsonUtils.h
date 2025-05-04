@@ -8,7 +8,7 @@
 #include <functional>
 
 template <typename T>
-class BaseManager {
+class JsonUtils {
 protected:
     QList<T> dataList;
 
@@ -51,23 +51,8 @@ public:
         file.close();
     }
 
-    void overwriteAll(const QString& filePath) {
-        QJsonArray array;
-        for (const T &item : dataList) {
-            array.append(item.toJson());
-        }
-
-        QFile file(filePath);
-        if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
-            return;
-
-        QJsonDocument doc(array);
-        file.write(doc.toJson());
-        file.close();
-    }
-
-    void removeIf(std::function<bool(const T&)> predicate) {
-        dataList.erase(std::remove_if(dataList.begin(), dataList.end(), predicate), dataList.end());
+    void remove(const T& item) {
+        dataList.removeAll(item);
     }
 
     void clear() {

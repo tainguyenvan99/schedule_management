@@ -18,3 +18,23 @@ void Exam::setRoom(const QString& room) { m_room = room; }
 void Exam::setDate(const QString& date) { m_date = date; }
 void Exam::setTimeFrom(const QString& timeFrom) { m_timeFrom = timeFrom; }
 void Exam::setTimeTo(const QString& timeTo) { m_timeTo = timeTo; }
+
+QJsonObject Exam::toJson() const
+{
+    QJsonObject obj;
+    obj["subject"] = m_subject;
+    obj["room"] = m_room;
+    obj["date"] = m_date;
+    obj["timeFrom"] = m_timeFrom;
+    obj["timeTo"] = m_timeTo;
+    return obj;
+}
+
+void Exam::fromJson(const QJsonObject &obj)
+{
+    m_subject = obj["subject"].toString();
+    m_room = obj["room"].toString();
+    m_date = obj["date"].toString();
+    m_timeFrom = obj["timeFrom"].toString();
+    m_timeTo = obj["timeTo"].toString();
+}

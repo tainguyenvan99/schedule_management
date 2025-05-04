@@ -2,6 +2,8 @@
 #define TEACHER_H
 
 #include <QString>
+#include <QJsonObject>
+
 
 class Teacher {
 public:
@@ -19,7 +21,8 @@ public:
     void setPhone(const QString& phone);
     void setEmail(const QString& email);
 
-    QString toString() const;
+    QJsonObject toJson() const;
+    void fromJson(const QJsonObject& obj);
 
 private:
     QString m_name;

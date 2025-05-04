@@ -2,7 +2,7 @@
 #define SUBMISSION_H
 
 #include <QString>
-#include <QDateTime>
+#include <QJsonObject>
 
 class Submission {
 public:
@@ -16,6 +16,9 @@ public:
     void setSubject(const QString& subject);
     void setDesc(const QString& desc);
     void setDeadline(const QString& deadline);
+
+    QJsonObject toJson() const;
+    void fromJson(const QJsonObject &obj);
 
 private:
     QString m_subject;

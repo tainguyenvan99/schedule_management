@@ -16,7 +16,20 @@ void Teacher::setPost(const QString& post) { m_post = post; }
 void Teacher::setPhone(const QString& phone) { m_phone = phone; }
 void Teacher::setEmail(const QString& email) { m_email = email; }
 
-QString Teacher::toString() const {
-    return QString("%1 (%2) | %3 | %4")
-        .arg(m_name, m_post, m_phone, m_email);
+QJsonObject Teacher::toJson() const
+{
+    QJsonObject obj;
+    obj["name"] = m_name;
+    obj["post"] = m_post;
+    obj["phone"] = m_phone;
+    obj["email"] = m_email;
+    return obj;
+}
+
+void Teacher::fromJson(const QJsonObject &obj)
+{
+    m_name = obj["name"].toString();
+    m_post = obj["post"].toString();
+    m_phone = obj["phone"].toString();  
+    m_email = obj["email"].toString();
 }

@@ -2,6 +2,7 @@
 #define TIMETABLE_H
 
 #include <QString>
+#include <QJsonObject>
 
 class TimeTable {
 public:
@@ -24,7 +25,8 @@ public:
     void setTimeTo(const QString& timeTo);
     void setDayOfWeek(const QString& dayOfWeek);
 
-    QString toString() const;
+    QJsonObject toJson() const;
+    void fromJson(const QJsonObject& obj);
 
 private:
     QString m_subject;

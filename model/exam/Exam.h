@@ -2,7 +2,8 @@
 #define EXAM_H
 
 #include <QString>
-#include <QString>
+#include <QJsonObject>
+
 
 class Exam {
 public:
@@ -22,7 +23,8 @@ public:
     void setTimeFrom(const QString& timeFrom);
     void setTimeTo(const QString& timeTo);
 
-
+    QJsonObject toJson() const;
+    void fromJson(const QJsonObject &obj);
 private:
     QString m_subject;
     QString m_room;

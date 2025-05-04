@@ -5,6 +5,12 @@
         "qdate": "cpp",
         "qdebug": "cpp",
         "new": "cpp",
-        "qlabel": "cpp"
+        "qlabel": "cpp",
+        "qvboxlayout": "cpp",
+        "qboxlayout": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "span": "cpp"
     }
 }

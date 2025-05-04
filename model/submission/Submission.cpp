@@ -13,4 +13,18 @@ void Submission::setSubject(const QString& subject) { m_subject = subject; }
 void Submission::setDesc(const QString& desc) { m_desc = desc; }
 void Submission::setDeadline(const QString& deadline) { m_deadline = deadline; }
 
+QJsonObject Submission::toJson() const
+{
+    QJsonObject obj;
+    obj["subject"] = m_subject;
+    obj["desc"] = m_desc;
+    obj["deadline"] = m_deadline;
+    return obj;
+}
 
+void Submission::fromJson(const QJsonObject &obj)
+{
+    m_subject = obj["subject"].toString();
+    m_desc = obj["desc"].toString();
+    m_deadline = obj["deadline"].toString();
+}

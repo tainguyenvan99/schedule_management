@@ -3,15 +3,13 @@
 
 #include <QList>
 #include "Exam.h"
+#include "JsonUtils.h"
 
-class ExamManager {
+class ExamManager : public JsonUtils<Exam>
+{
 public:
-    void addExam(const Exam& e);
-    QList<Exam> getExams() const;
-    bool loadFromJson(const QString& filePath);
-
-private:
-    QList<Exam> m_exams;
+    ExamManager() = default;
+    ~ExamManager() = default;
 };
 
 #endif // EXAMMANAGER_H

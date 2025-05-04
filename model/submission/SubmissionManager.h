@@ -3,15 +3,14 @@
 
 #include <QList>
 #include "Submission.h"
+#include "JsonUtils.h"
 
-class SubmissionManager {
+class SubmissionManager : public JsonUtils<Submission>
+{
 public:
-    void addSubmission(const Submission& s);
-    QList<Submission> getSubmissions() const;
-    bool loadFromJson(const QString& filePath);
+    SubmissionManager() = default;
+    ~SubmissionManager() = default;
 
-private:
-    QList<Submission> m_submissions;
 };
 
 #endif // SUBMISSIONMANAGER_H

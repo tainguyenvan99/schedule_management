@@ -22,7 +22,24 @@ void TimeTable::setTimeFrom(const QString& timeFrom) { m_timeFrom = timeFrom; }
 void TimeTable::setTimeTo(const QString& timeTo) { m_timeTo = timeTo; }
 void TimeTable::setDayOfWeek(const QString& dayOfWeek) { m_dayOfWeek = dayOfWeek; }
 
-QString TimeTable::toString() const {
-    return QString("%1 | %2 | %3 | %4-%5 | %6")
-        .arg(m_subject, m_teacher, m_room, m_timeFrom, m_timeTo, m_dayOfWeek);
+QJsonObject TimeTable::toJson() const
+{
+  QJsonObject obj;
+  obj["subject"] = m_subject;
+  obj["teacher"] = m_teacher;
+  obj["room"] = m_room;
+  obj["dayOfWeek"] = m_dayOfWeek;
+  obj["timeFrom"] = m_timeFrom;
+  obj["timeTo"] = m_timeTo;
+  return obj;
+}
+
+void TimeTable::fromJson(const QJsonObject &obj)
+{
+  m_subject = obj["subject"].toString();
+  m_teacher = obj["teacher"].toString();
+  m_room = obj["room"].toString();
+  m_dayOfWeek = obj["dayOfWeek"].toString();
+  m_timeFrom = obj["timeFrom"].toString();
+  m_timeTo = obj["timeTo"].toString();
 }

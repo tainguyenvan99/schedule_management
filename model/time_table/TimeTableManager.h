@@ -4,17 +4,14 @@
 
 #include <QList>
 #include "TimeTable.h"
+#include "JsonUtils.h"
 
-class TimeTableManager {
+class TimeTableManager : public JsonUtils<TimeTable> {
 public:
-    void addTimeTable(const TimeTable& t);
-    QList<TimeTable> getTimeTables() const;
-    bool loadFromJson(const QString& filePath);
+    TimeTableManager() = default;
+    ~TimeTableManager() = default;
+public:
     QList<TimeTable> filterByDayOfWeek(const QString& dayOfWeek) const;
-    bool saveToJson(const QString& filePath,  const TimeTable& timeTable) const;
-
-private:
-    QList<TimeTable> m_timeTables;
 };
 
 #endif // TIMETABLEMANAGER_H

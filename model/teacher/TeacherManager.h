@@ -3,15 +3,13 @@
 
 #include <QList>
 #include "Teacher.h"
+#include "JsonUtils.h"
 
-class TeacherManager {
+
+class TeacherManager : public JsonUtils<Teacher> {
 public:
-    void addTeacher(const Teacher& t);
-    QList<Teacher> getTeachers() const;
-    bool loadFromJson(const QString& filePath);
-
-private:
-    QList<Teacher> m_teachers;
+    TeacherManager() = default;
+    ~TeacherManager() = default;
 };
 
 #endif // TEACHERMANAGER_H

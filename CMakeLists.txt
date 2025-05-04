@@ -76,7 +76,33 @@ set(PROJECT_SOURCES
 
         # common
         ./common/JsonUtils.h
+        ./common/RandomColor.h
+        ./common/RandomColor.cpp
 )
+include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}/model
+    ${CMAKE_CURRENT_SOURCE_DIR}/model/exam
+    ${CMAKE_CURRENT_SOURCE_DIR}/model/submission
+    ${CMAKE_CURRENT_SOURCE_DIR}/model/teacher
+    ${CMAKE_CURRENT_SOURCE_DIR}/model/time_table
+    ${CMAKE_CURRENT_SOURCE_DIR}/view
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component/header_bar
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component/side_bar_menu
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component/icon_label
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component/info_card
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component/button_action
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/component/form_dialog
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/page
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/page/time_table
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/page/exams
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/page/submissions
+    ${CMAKE_CURRENT_SOURCE_DIR}/view/page/teachers
+    ${CMAKE_CURRENT_SOURCE_DIR}/common
+    ${CMAKE_CURRENT_SOURCE_DIR}/assets
+    ${CMAKE_CURRENT_SOURCE_DIR}/data
+    )
+
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(schedule_management
